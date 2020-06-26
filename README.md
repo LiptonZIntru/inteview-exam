@@ -1,1 +1,2 @@
-Tasks from Daily Interview Pro with solutions
+Tasks from Daily Interview Pro 
+with solutions
