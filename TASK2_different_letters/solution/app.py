@@ -1,4 +1,4 @@
-# Ukol 2: dokonceno v 2:36 26.6.2020
+# Task 2: finished v 2:36 26.6.2020
 
 class Solution:
     def lengthOfLongestSubstring(self, s):

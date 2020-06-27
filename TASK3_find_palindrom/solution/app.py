@@ -1,4 +1,4 @@
-# Ukol 3: dokonceno v 9:01 26.6.2020
+# Task 3: finished v 9:01 26.6.2020
 
 class Solution: 
     def longestPalindrome(self, s):

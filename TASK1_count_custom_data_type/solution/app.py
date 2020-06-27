@@ -1,4 +1,4 @@
-# Ukol 1: dokonceno v 1:18 26.6.2020
+# Task 1: finished v 1:18 26.6.2020
 
 
 # Definition for singly-linked list.
