@@ -33,7 +33,7 @@ class Solution:
                     break
             else:
                 last_open_bracket = valid.pop()
-                target_bracket = ''
+                target_bracket = 0
 
                 for bracket in range(len(close_brackets)):
                     if open_brackets[bracket] == last_open_bracket:
