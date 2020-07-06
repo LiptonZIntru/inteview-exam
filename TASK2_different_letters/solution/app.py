@@ -1,9 +1,9 @@
-# Task 2: finished v 2:36 26.6.2020
-
+# Task 2: finished at 2:36 26.6.2020
+# New solution made at 20:16 6.7.2020
 class Solution:
     def lengthOfLongestSubstring(self, s):
         # Fill this in.
-        biggest = ""
+        '''biggest = ""
         sub_string = ""
         for char in s:
             sub_string = sub_string + char
@@ -19,7 +19,19 @@ class Solution:
                 
             if len(sub_string) > len(biggest):
                 biggest = sub_string
-        return len(biggest)
+        return len(biggest)'''
+        sub_string = ""
+        biggest = 0
+
+        for char in s:
+            if sub_string.__contains__(char):
+                sub_string = ""
+            else:
+                sub_string += char
+            if biggest < len(sub_string):
+                biggest = len(sub_string)
+        return biggest
+
 
 print(Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx'))
 # 10
