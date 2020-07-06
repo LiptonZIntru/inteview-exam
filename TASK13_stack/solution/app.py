@@ -1,19 +1,23 @@
+# Task 13 finished at 6.7.2020 20:38
 class MaxStack:
     def __init__(self):
-        # Fill this in.
-        pass
+        self.values = []
+        self.max_val = None
 
     def push(self, val):
-        # Fill this in.
-        pass
+        self.values.append(val)
+        if self.max_val is None:
+            self.max_val = val
+        if self.max_val < val:
+            self.max_val = val
 
     def pop(self):
-        # Fill this in.
-        pass
+        value = self.values.pop()
+        if value == self.max_val:
+            self.max_val = max(self.values)
 
     def max(self):
-        # Fill this in.
-        pass
+        return self.max_val
 
 
 s = MaxStack()

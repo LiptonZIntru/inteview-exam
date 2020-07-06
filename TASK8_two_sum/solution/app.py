@@ -1,4 +1,4 @@
-
+# Task 7 finished at 4.7.2020 23:40
 import time
 import random
 def two_sum(list, k):
