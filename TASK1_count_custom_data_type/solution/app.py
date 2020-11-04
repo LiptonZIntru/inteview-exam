@@ -7,8 +7,9 @@ class ListNode(object):
         self.val = x
         self.next = None
 
+
 class Solution:
-    def addTwoNumbers(self, l1, l2, c = 0):
+    def addTwoNumbers(self, l1, l2, c=0):
         result = ListNode(l1.val + l2.val + c)
         c = 0
         if l1.val + l2.val >= 10:
@@ -21,6 +22,7 @@ class Solution:
             result.next = num
         return result
     # Fill this in.
+
 
 l1 = ListNode(2)
 l1.next = ListNode(4)
